@@ -13,8 +13,6 @@ Database::Database(string filename) {
 
     getline(File, line);
 
-    cout << (line != "=DB=") << endl;
-
     if (line != "=DB=") {
         File.clear();
 

@@ -53,7 +53,7 @@ void login(Database db) {
 
 int main() {
 
-    Database db = Database("test.txt");
+    Database db = Database("db.txt");
 
     cout << "Choice :" << endl;
     cout << "1: Login" << endl;
